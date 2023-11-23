@@ -1,0 +1,100 @@
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+/* .form-group{
+    border: 1px solid darkgray;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin-left: 50px;
+   
+} */
+.form-group_1{
+    padding: 10px;
+}
+.checkbox{
+    padding: 10px;
+}
+button{
+    margin-left: 20px;
+}
+/* .list-group{
+    border: 1px solid gray;
+    width: 300px;
+    height:230px;
+    margin-left: 50px;
+} */
+.menu_2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+
+}
+.menu_2-sp{
+    margin-top: 20px;
+text-align: center;
+}
+.menu_2-sp img{
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    
+}
+
+.menu_2-sp h5{
+    font-size: 15px;
+    font-weight: 800;
+    
+}
+.menu_2-sp a{
+    text-decoration: none;
+    color: black;
+}
+.btn-sp button{
+    width: 170px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: red;
+    border: 1px solid red;
+    color:white;
+}
+.btn-sp button:hover{
+    background-color:lightgreen;
+    color: orange;
+}
+/* .news_sp{
+    margin-left: 50px;
+border: 1px solid black;
+width: 300px;
+height: 530px;
+} */
+.newss_sp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    }
+ .newss_sp img{
+        width: 50px;
+        height: 70px;
+        margin-left: 10px;
+}
+.newss_sp p{
+    margin-left: 10px;
+}
+footer{
+    margin-top: 50px;
+    width: 100%;
+    background-color: lightgreen;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+}
